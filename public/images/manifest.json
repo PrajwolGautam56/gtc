@@ -1,0 +1,43 @@
+{
+  "gallery": [
+    "gal.jpg",
+    "gtc8.jpg",
+    "gtc7.jpg",
+    "gtc6.jpg",
+    "g2.jpg",
+    "g.jpg",
+    "gtc5.jpg",
+    "gtc3.jpeg",
+    "back.jpg"
+  ],
+  "services/lab": ["con.jpg", "con2.jpg", "con3.jpg", "con4.jpg"],
+  "services/soil": ["st.jpg", "soil test.jpg", "81181254_609404116529410_6319299109043830784_n-600x800.jpg"],
+  "services/tmt": ["tmt.jpg", "tmt2.jpg", "tmt3.jpg"],
+  "services/bitumen": ["bit.jpg", "bit1.jpg", "bit3.jpg", "bit4.jpg"],
+  "services/concrete": ["con.jpg", "con2.jpg", "con3.jpg", "con4.jpg"],
+  "services/lab-equipment": [
+    "equi.jpeg",
+    "equi2.jpg",
+    "equi3.jpg",
+    "equi4.jpg",
+    "equi5.jpg",
+    "equi6.jpg",
+    "equi7.jpg"
+  ],
+  "services/chemical": ["mix.jpg", "mix2.jpg", "mix3.jpg"],
+  "services/survey": [
+    "survey equ.jpg",
+    "auto-level-400x400.jpg",
+    "tripod-400x400.jpg",
+    "laser_distance_meter-400x400.jpg",
+    "prism-435x400.jpg",
+    "measuring-tape-372x400.jpg",
+    "abney_level-768x768.jpg",
+    "gps-768x768.jpg"
+  ],
+  "services/ppe": ["safety-eqi2.jpg"],
+  "services/design": ["back.jpg"],
+  "about": ["gtc6.jpg", "back.jpg"],
+  "hero": [],
+  "why-us": []
+}
