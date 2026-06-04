@@ -29,7 +29,7 @@ export default function About() {
                 {images.slice(0, 2).map((src, i) => (
                   <div
                     key={src}
-                    className={`rounded-2xl overflow-hidden aspect-[4/5] ${
+                    className={`rounded-2xl overflow-scroll aspect-[4/5] ${
                       i === 0 ? 'mt-6' : ''
                     }`}
                   >

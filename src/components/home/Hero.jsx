@@ -48,7 +48,7 @@ export default function Hero() {
   const { firstImage } = useImagesWithFallback('hero', 'gallery')
 
   return (
-    <section className="relative bg-navy text-white overflow-hidden">
+    <section className="relative bg-navy text-white overflow-scroll">
       <div
         className="absolute inset-0 bg-grid-pattern bg-grid opacity-60"
         aria-hidden
@@ -92,7 +92,7 @@ export default function Hero() {
           </FadeIn>
 
           <FadeIn delay={150} className="relative">
-            <div className="relative rounded-2xl overflow-hidden aspect-[4/3] shadow-card">
+            <div className="relative rounded-2xl overflow-scroll aspect-[4/3] shadow-card">
               <SmartImage
                 src={firstImage}
                 alt="GTC Nepal laboratory"

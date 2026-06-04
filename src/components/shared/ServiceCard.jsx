@@ -6,8 +6,8 @@ export default function ServiceCard({ service }) {
   const { firstImage, loading } = useImages(service.folder)
 
   return (
-    <article className="group bg-white rounded-xl overflow-hidden shadow-sm border border-gray-100 transition-all duration-300 hover:-translate-y-1.5 hover:shadow-card-hover">
-      <div className="aspect-[4/3] overflow-hidden bg-gray-100">
+    <article className="group bg-white rounded-xl overflow-scroll shadow-sm border border-gray-100 transition-all duration-300 hover:-translate-y-1.5 hover:shadow-card-hover">
+      <div className="aspect-[4/3] overflow-scroll bg-gray-100">
         {loading ? (
           <div className="w-full h-full bg-gray-200 animate-pulse" />
         ) : (

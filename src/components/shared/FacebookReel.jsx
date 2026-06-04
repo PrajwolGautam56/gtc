@@ -11,7 +11,7 @@ export default function FacebookReel({ className = '', title = 'Watch on Faceboo
         See GTC Nepal in action — laboratory and field work highlights from our
         Facebook page.
       </p>
-      <div className="relative w-full max-w-2xl mx-auto rounded-2xl overflow-hidden shadow-card bg-navy/5 aspect-video">
+      <div className="relative w-full max-w-2xl mx-auto rounded-2xl overflow-scroll shadow-card bg-navy/5 aspect-video">
         <iframe
           src={embedSrc}
           title="GTC Nepal Facebook reel"

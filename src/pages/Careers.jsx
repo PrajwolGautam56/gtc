@@ -34,7 +34,7 @@ export default function Careers() {
 
   return (
     <>
-      <section className="relative bg-navy text-white py-16 md:py-24 overflow-hidden">
+      <section className="relative bg-navy text-white py-16 md:py-24 overflow-scroll">
         <div
           className="absolute inset-0 bg-grid-pattern bg-grid opacity-60"
           aria-hidden

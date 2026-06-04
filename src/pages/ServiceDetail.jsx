@@ -58,7 +58,7 @@ export default function ServiceDetail() {
         <div className="max-w-7xl mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
             <FadeIn className="lg:col-span-4 lg:sticky lg:top-24 lg:self-start">
-              <div className="rounded-2xl overflow-hidden aspect-video mb-4">
+              <div className="rounded-2xl overflow-scroll aspect-video mb-4">
                 <SmartImage
                   src={firstImage}
                   alt={cardTitle}
@@ -69,7 +69,7 @@ export default function ServiceDetail() {
               {images.length > 1 && (
                 <div className="grid grid-cols-3 gap-2 mb-6">
                   {images.slice(1, 4).map((src) => (
-                    <div key={src} className="rounded-lg overflow-hidden aspect-square">
+                    <div key={src} className="rounded-lg overflow-scroll aspect-square">
                       <img
                         src={src}
                         alt=""

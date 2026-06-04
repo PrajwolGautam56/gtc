@@ -16,7 +16,7 @@ export default function AboutSection() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
           <FadeIn className="relative">
             <div className="grid grid-cols-2 gap-4">
-              <div className="rounded-xl overflow-hidden aspect-[3/4] mt-8">
+              <div className="rounded-xl overflow-scroll aspect-[3/4] mt-8">
                 <SmartImage
                   src={img1}
                   alt="GTC laboratory"
@@ -24,7 +24,7 @@ export default function AboutSection() {
                   className="w-full h-full min-h-[200px]"
                 />
               </div>
-              <div className="rounded-xl overflow-hidden aspect-[3/4]">
+              <div className="rounded-xl overflow-scroll aspect-[3/4]">
                 <SmartImage
                   src={img2}
                   alt="Construction testing"

@@ -52,10 +52,10 @@ export default function GalleryGrid({
           <button
             key={src}
             type="button"
-            className="group relative block w-full break-inside-avoid overflow-hidden rounded-lg focus:outline-none focus:ring-2 focus:ring-primary"
+            className="group relative block w-full break-inside-avoid overflow-scroll rounded-lg focus:outline-none focus:ring-2 focus:ring-primary"
             onClick={() => setLightbox({ src, alt: `Gallery image ${i + 1}` })}
           >
-            <div className="overflow-hidden rounded-lg">
+            <div className="overflow-scroll rounded-lg">
               <img
                 src={src}
                 alt={`Gallery ${i + 1}`}

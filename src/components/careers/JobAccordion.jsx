@@ -4,7 +4,7 @@ export default function JobAccordion({ job }) {
   const applyUrl = getApplyUrl(job)
 
   return (
-    <details className="group bg-white rounded-xl border border-gray-100 shadow-sm overflow-hidden">
+    <details className="group bg-white rounded-xl border border-gray-100 shadow-sm overflow-scroll">
       <summary className="list-none cursor-pointer border-l-4 border-primary hover:bg-off-white/80 transition-colors">
         <div className="flex flex-col lg:flex-row lg:items-center gap-4 p-5 md:p-6">
           <div className="flex-1 min-w-0">

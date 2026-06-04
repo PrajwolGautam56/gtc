@@ -79,7 +79,7 @@ export default function WhyUs() {
           </FadeIn>
 
           <FadeIn delay={150} className="relative">
-            <div className="rounded-2xl overflow-hidden aspect-[4/5] max-h-[560px]">
+            <div className="rounded-2xl overflow-scroll aspect-[4/5] max-h-[560px]">
               <SmartImage
                 src={firstImage}
                 alt="Engineering team at work"
