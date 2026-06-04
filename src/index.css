@@ -6,9 +6,11 @@
   html {
     scroll-behavior: smooth;
   }
-
+   
   body {
     @apply font-body text-navy antialiased bg-white;
+    overflow-x: hidden !important;
+    overflow-y: scroll !important;
   }
 
   h1,
